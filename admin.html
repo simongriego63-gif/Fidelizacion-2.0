@@ -230,17 +230,15 @@
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
         import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
-
-        const firebaseConfig = {
-            apiKey: "AIzaSyCaqJraAXeZ8F4zCd9GUIdNIHhfU7FMzJk",
-            authDomain: "club-cafe-app.firebaseapp.com",
-            databaseURL: "https://club-cafe-app-default-rtdb.firebaseio.com",
-            projectId: "club-cafe-app",
-            storageBucket: "club-cafe-app.firebasestorage.app",
-            messagingSenderId: "1007849307452",
-            appId: "1:1007849307452:web:2472f6b2cab7deeae53239",
-            measurementId: "G-6314S7TS0T"
-        };
+const firebaseConfig = {
+  apiKey: "AIzaSyC6HV7cMTeW5HkJTAf9SlOSGHKtbf6-xtg",
+  authDomain: "fidelizacion-ecdd7.firebaseapp.com",
+  projectId: "fidelizacion-ecdd7",
+  storageBucket: "fidelizacion-ecdd7.firebasestorage.app",
+  messagingSenderId: "924864125763",
+  appId: "1:924864125763:web:50120a708d473094566df6",
+  measurementId: "G-S9N8G2C1QT"
+};
 
         const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
